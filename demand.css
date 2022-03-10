@@ -1,0 +1,74 @@
+.demand{
+  width:80%;
+  padding:50px 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(46, 46, 46, 0.6), rgba(37, 37, 37, 0.9)) ,url(pic/data.JPG);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.demand h1{
+  color: #FFF;
+}
+.option{
+  width:100%;
+  color: #FFF;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.option i{
+  margin-left: 20px;
+}
+.option p{
+  font-size: 14px;
+  margin-left: 5px;
+}
+.blue{
+  color:#b6bcf3;
+}
+.red{
+  color: #fac6c6;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.data-container{
+  width:100%;
+  height:100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.data-one{
+  background: linear-gradient(90deg, #b6bcf3 0%, #b6bcf3 34%, #fac6c6 34%, #fac6c6 75%, #fff 75%, #fff 100%);
+}
+.data-two{
+  background: linear-gradient(90deg, #b6bcf3 0%, #b6bcf3 68%, #fac6c6 68%, #fac6c6 87%, #fff 87%, #fff 100%);
+}
+.data-three{
+  background: linear-gradient(90deg, #b6bcf3 0%, #b6bcf3 84%, #fac6c6 84%, #fac6c6 96%, #fff 96%, #fff 100%);
+}
+.data-four{
+  background: linear-gradient(90deg, #b6bcf3 0%, #b6bcf3 58%, #fac6c6 58%, #fac6c6 83%, #fff 83%, #fff 100%);
+}
+.data-five{
+  background: linear-gradient(90deg, #b6bcf3 0%, #b6bcf3 84%, #fac6c6 84%, #fac6c6 90%, #fff 90%, #fff 100%);
+}
+.data-container h6{
+  position: absolute;
+  top:0;
+  left:0;
+  color: #FFF;
+  background-color: #000;
+  padding: 5px 10px;
+}
+.data-container p{
+  text-align: left;
+  line-height: 100px;
+  margin-left: 30px;
+  font-family: 'hiraginokakugothic';
+}
