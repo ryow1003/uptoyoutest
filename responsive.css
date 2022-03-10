@@ -1,0 +1,298 @@
+@media screen and (max-width: 1150px){
+  .top-btm-left h1{
+    font-size: 70px;
+    padding: 65vh 0 0 30px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .top-btn{
+    height:70px;
+  }
+  .top-btn h1{
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 70px;
+  }
+  .top-btn-right{
+    height:70px;
+    line-height: 70px;
+  }
+  .top-btn-right a{
+    width:120px;
+    font-size: 14px;
+  }
+  .top-btm-left h1{
+    font-size: 60px;
+    padding: 65vh 0 0 30px;
+  }
+  .top-btm-left p{
+    font-size: 16px;
+  }
+  .top-btm-right{
+    width:120px;
+  }
+  .top-btm-right a{
+    width:120px;
+  }
+  .letter{
+    width: 80%;
+    margin:0 10%;
+  }
+  .abs-text h1{
+    font-size: 45px;
+  }
+  .letter-text p{
+    font-size: 16px;
+  }
+  .detail-text h1{
+    font-size: 22px;
+  }
+  .detail-text p{
+    margin-top: 10px;
+  }
+
+}
+@media screen and (max-width: 834px){
+  .offer-btn a{
+    padding:20px 30px;
+  }
+  .demand h1{
+    font-size: 22px;
+  }
+  .offer-text h1{
+    font-size: 22px;
+    padding:15px 10px;
+  }
+  .offer-text p{
+    font-size: 16px;
+  }
+  .detail{
+    height:auto;
+    padding:10vh 0;
+  }
+  .data-container p{
+    font-size: 12px;
+  }
+  .offer-btn{
+    display: flex;
+    margin:20px auto;
+  }
+  .option{
+    margin-bottom: 3px;
+  }
+  .option p{
+    font-size: 12px;
+  }
+  .back-text{
+    font-size: 300px;
+  }
+}
+@media screen and (max-width: 800px){
+  .openbtn{
+    display: block;
+  }
+  .top-btn-right,.top-btm-right a{
+    display: none;
+  }
+  .top-btm-right{
+    border-left: 0px;
+  }
+  .question h1{
+    font-size: 36px;
+    padding:40vh 0 55vh 0;
+  }
+  .letter{
+    width: 90%;
+    margin:0 5%;
+  }
+  .UL-icon{
+    width:100px;
+    height:100px;
+  }
+  .offer-text{
+    width:80%;
+    margin:0 5%;
+    padding:50px 5%;
+  }
+}
+@media screen and (max-width: 568px){
+  .top-btm-right{
+    width:10%;
+  }
+  .top-btm-left{
+    width: 90%;
+  }
+  .top-btm-left h1{
+    font-size: 45px;
+    padding: 65vh 0 0 30px;
+  }
+  .head::before{
+    font-size: 70px;
+  }
+  .assign{
+    width:80%;
+    padding:20px 5%;
+    margin: 0 auto 50px auto;
+  }
+  .letter{
+    height:700px;
+  }
+  .abs-text{
+    top:350px;
+    width: 80%;
+    padding:20px 10px 0 10px;
+  }
+  .abs-text h1{
+    font-size: 32px;
+  }
+  .letter-text p{
+    font-size: 16px;
+    padding-top: 40px;
+  }
+  .detail-text{
+    width:80%;
+    padding:50px 5%;
+    margin: 0 5%;
+  }
+  .break-568{
+    display: block;
+  }
+  .voice h1{
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+  .icon-none{
+    display: none;
+  }
+  .demand{
+    width:90%;
+    padding:50px 5%;
+  }
+  .demand h1{
+    padding-bottom: 20px;
+  }
+  .data-container{
+    height:80px;
+  }
+  .data-container h6{
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+  .data-container p{
+    line-height: 80px;
+  }
+  .data-container p span{
+    display: none;
+  }
+  .back-text{
+    font-size: 200px;
+  }
+}
+@media screen and (max-width: 480px){
+  .offer-btn a{
+    padding:15px;
+    margin:10px 15px;
+  }
+  .break-568{
+    display: none;
+  }
+  .voice h1{
+    font-size:18px;
+  }
+  .question h1 br{
+    display: block;
+  }
+  .tab_item{
+    font-size: 14px;
+  }
+  .data-container p{
+    margin-left: 10px;
+    line-height: 70px;
+  }
+  .data-container{
+    height: 70px;
+  }
+}
+@media screen and (max-width: 414px){
+  .letter{
+    height:600px;
+  }
+  .image{
+    height:50%;
+  }
+  .abs-text{
+    top:225px;
+  }
+  .offer-text h1{
+    padding:10px;
+    width:200px;
+  }
+  .break-568{
+    display: block;
+  }
+  .voice{
+    width:90%;
+    padding:50px 5% 100px 5%;
+  }
+  .voice h1{
+    width:90%;
+    border-radius: 5px;
+  }
+  .voice h1 span{
+    left:10px;
+  }
+  .voice h1 span:before{
+    right:-10px;
+  }
+  .tab_content{
+    padding:20px 20px 0
+  }
+  .option p{
+    font-size: 10px;
+  }
+  footer{
+    width:90%;
+    padding:20px 5% 5px 5%;
+  }
+  .tab_item{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px){
+  .top-btm-left h1{
+    padding-top: 60vh;
+  }
+  .letter{
+    height:640px;
+  }
+  .abs-text{
+    top:235px;
+  }
+  .offer-text{
+    padding:20px 5%;
+  }
+  .offer-text h1{
+    margin-bottom: 20px;
+  }
+  .voice h1{
+    font-size: 16px;
+  }
+  .tab_content{
+    font-size: 12px;
+  }
+  .data-container p{
+    font-size: 10px;
+  }
+  footer h2{
+    font-size: 20px;
+  }
+  footer h1{
+    font-size: 24px;
+  }
+  footer p{
+    font-size: 14px;
+  }
+  .back-text{
+    font-size: 130px;
+  }
+}

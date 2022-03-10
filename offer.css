@@ -1,0 +1,53 @@
+.offer{
+  width: 100%;
+  padding:80px 0;
+}
+.offer-text{
+  width:60%;
+  margin:0 15%;
+  padding:50px 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  box-shadow:  5px 5px 8px #8f8f8f,
+              -5px -5px 8px #ffffff;
+}
+.offer-text h1{
+  width:300px;
+  padding:30px 20px;
+  margin:0 auto 50px auto;
+  box-shadow:  5px 5px 8px #8f8f8f,
+              -5px -5px 8px #ffffff;
+}
+.offer-text p{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.offer-text p:last-child{
+  font-size: 16px;
+}
+.offer-btn{
+  display: flex;
+  margin:50px auto;
+}
+.offer-btn a{
+  padding:30px 40px;
+  margin:30px;
+  color: #000;
+  transition: 1s;
+  border:solid 1px #FF9900;
+  box-shadow:  5px 5px 8px #8f8f8f,
+              -5px -5px 8px #ffffff;
+}
+.offer-btn a:last-child{
+  border:solid 1px #4b44ac;
+}
+.offer-btn a:hover{
+  background-color: #FF9900;
+  color:#fff;
+}
+.offer-btn a:last-child:hover{
+  background-color: #4b44ac;
+  color:#fff;
+}
