@@ -20,6 +20,7 @@ header{
   color: #fff;
   padding-left: 50px;
   letter-spacing: 4px;
+  font-family:'Hiragino Mincho Pro';
 }
 .top-btn-right{
   height:100px;
@@ -35,6 +36,7 @@ header{
   letter-spacing: 1px;
   font-size: 15px;
   transition: 1s;
+  font-family:'Hiragino Mincho Pro';
 }
 .top-btn-right a:hover{
   opacity: 0.6;
@@ -63,11 +65,13 @@ header{
   font-size: 90px;
   color: #fff;
   padding: 50vh 0 0 50px;
+  font-family: 'Courgette', cursive;
 }
 .top-btm-left p{
   font-size: 20px;
   color: #fff;
   padding-left: 50px;
+  font-family:'Hiragino Mincho Pro';
 }
 .top-btm-right a{
   width: 200px;
@@ -76,12 +80,13 @@ header{
   font-size: 15px;
   padding:30px 0;
   transition: 1s;
+  font-family:'Hiragino Mincho Pro';
 }
 .top-btm-right a:hover{
   opacity: 0.6;
   background-color: #000;
 }
-.top-btm-right a:last-child{
+.top-btm-right a:nth-child(3){
   padding-bottom: 80px;
   border-bottom: 1px solid #fff;
 }

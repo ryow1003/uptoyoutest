@@ -10,6 +10,7 @@
 }
 .demand h1{
   color: #FFF;
+  font-family:'Hiragino Mincho Pro';
 }
 .option{
   width:100%;
@@ -25,6 +26,7 @@
 .option p{
   font-size: 14px;
   margin-left: 5px;
+  font-family:'Hiragino Mincho Pro';
 }
 .blue{
   color:#b6bcf3;
