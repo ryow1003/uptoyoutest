@@ -49,6 +49,7 @@
   padding: 20px 40px;
   background: rgba(165, 18, 202, 0.2);
   box-shadow:  5px 5px 8px #8f8f8f,-5px -5px 8px #ffffff;
+  font-family:'Hiragino Mincho Pro';
 }
 .voice h1 span{
   position: absolute;
@@ -107,6 +108,7 @@
   text-align: center;
   font-weight: bold;
   transition: all 0.2s ease;
+  font-family:'Hiragino Mincho Pro';
 }
 .tab_item:hover{
   opacity: 0.7;
@@ -121,6 +123,7 @@ input[name="tab_item"]{
   overflow: hidden;
   line-height: 25px;
   letter-spacing: 1px;
+  font-family:'Hiragino Mincho Pro';
 }
 #voice1:checked ~ #voice1_content,
 #voice2:checked ~ #voice2_content,

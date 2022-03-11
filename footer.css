@@ -28,4 +28,5 @@ footer h6{
 }
 footer h2,footer h1,footer p{
   z-index: 3;
+  font-family:'Hiragino Mincho Pro';
 }

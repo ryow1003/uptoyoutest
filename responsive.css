@@ -108,6 +108,9 @@
   .top-btm-right{
     border-left: 0px;
   }
+  .top-btm-right a:nth-child(3){
+    border-bottom: 0px;
+  }
   .question h1{
     font-size: 36px;
     padding:40vh 0 55vh 0;
