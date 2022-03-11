@@ -41,6 +41,9 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.abs-text h1,.abs-text h3{
+  font-family:'Hiragino Mincho Pro';
+}
 .letter-text{
   width:100%;
   text-align: center;
@@ -49,4 +52,5 @@
   font-size: 20px;
   padding:60px 10% 0 10%;
   letter-spacing: 1px;
+  font-family:'Hiragino Mincho Pro';
 }

@@ -18,6 +18,9 @@
   box-shadow:  5px 5px 8px #8f8f8f,
               -5px -5px 8px #ffffff;
 }
+.detail-text h1,.detail-text p{
+  font-family:'Hiragino Mincho Pro';
+}
 .detail-text p{
   margin-top: 50px;
   letter-spacing: 1px;
