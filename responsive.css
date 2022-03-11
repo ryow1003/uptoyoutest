@@ -53,11 +53,19 @@
 
 }
 @media screen and (max-width: 834px){
+  .letter-text p{
+    padding:60px 5% 0 5%;
+  }
   .offer-btn a{
     padding:20px 30px;
   }
   .demand h1{
     font-size: 22px;
+  }
+  .offer-text{
+    width:74%;
+    margin:0 10%;
+    padding:50px 3%;
   }
   .offer-text h1{
     font-size: 22px;
@@ -93,6 +101,9 @@
   }
   .top-btn-right,.top-btm-right a{
     display: none;
+  }
+  .top-btm-right a:last-child{
+    display: block;
   }
   .top-btm-right{
     border-left: 0px;
@@ -138,7 +149,7 @@
     height:700px;
   }
   .abs-text{
-    top:350px;
+    top:300px;
     width: 80%;
     padding:20px 10px 0 10px;
   }
@@ -156,6 +167,9 @@
   }
   .break-568{
     display: block;
+  }
+  .break-568-none{
+    display: none;
   }
   .voice h1{
     font-size: 22px;
@@ -214,21 +228,45 @@
   }
 }
 @media screen and (max-width: 414px){
+  .break-414{
+    display: block;
+  }
+  .top-btm-left h1{
+    padding-top: 50vh;
+  }
+  .question p{
+    font-size: 14px;
+  }
   .letter{
-    height:600px;
+    height:550px;
+  }
+  .letter-text p{
+    font-size: 14px;
   }
   .image{
     height:50%;
   }
   .abs-text{
-    top:225px;
+    top:180px;
   }
   .offer-text h1{
     padding:10px;
     width:200px;
   }
+  .offer-text p{
+    font-size: 14px;
+  }
+  .offer-text p:last-child{
+    font-size: 12px;
+  }
   .break-568{
     display: block;
+  }
+  .detail-text p{
+    font-size: 14px;
+  }
+  .tab_content{
+    font-size: 14px;
   }
   .voice{
     width:90%;
@@ -259,14 +297,24 @@
   }
 }
 @media screen and (max-width: 375px){
+  #g-nav ul{
+    top:45%;
+  }
   .top-btm-left h1{
-    padding-top: 60vh;
+    padding-top: 50vh;
+  }
+  .image{
+    height:50%;
   }
   .letter{
-    height:640px;
+    height:550px;
+  }
+  .letter-text p{
+    padding-right:0;
+    padding-left:0;
   }
   .abs-text{
-    top:235px;
+    top:200px;
   }
   .offer-text{
     padding:20px 5%;
