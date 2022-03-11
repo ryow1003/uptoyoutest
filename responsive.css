@@ -285,6 +285,10 @@
   .tab_content{
     padding:20px 20px 0
   }
+  .data-container{
+    height:60px;
+    font-weight: 100;
+  }
   .option p{
     font-size: 10px;
   }
