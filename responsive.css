@@ -1,7 +1,15 @@
+@media screen and (max-width: 1250px){
+  .dir-txt{
+    padding:100px 10% 0 10%;
+  }
+}
 @media screen and (max-width: 1150px){
   .top-btm-left h1{
     font-size: 70px;
     padding: 65vh 0 0 30px;
+  }
+  .about h1{
+    font-size: 100px;
   }
 }
 @media screen and (max-width: 1024px){
@@ -50,7 +58,20 @@
   .detail-text p{
     margin-top: 10px;
   }
-
+  .dir{
+    flex-direction: column;
+    width:60%;
+    margin:30px 20%;
+  }
+  .reverse{
+    flex-direction: column-reverse;
+  }
+  .dir img{
+    width: 100%;
+  }
+  .dir-txt{
+    width:80%;
+  }
 }
 @media screen and (max-width: 834px){
   .letter-text p{
@@ -93,6 +114,27 @@
   }
   .back-text{
     font-size: 300px;
+  }
+  .about h2{
+    font-size: 32px;
+  }
+  .about h1{
+    font-size: 80px;
+  }
+  .about p{
+    font-size: 30px;
+  }
+  .about h3{
+    font-size: 24px;
+  }
+  .box-title h2{
+    font-size: 20px;
+  }
+  .director h2{
+    margin-bottom: 20px;
+  }
+  .dir-txt{
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 800px){
@@ -204,6 +246,40 @@
   .back-text{
     font-size: 200px;
   }
+  .about h2{
+    font-size: 28px;
+  }
+  .about h1{
+    font-size: 50px;
+  }
+  .about p{
+    font-size: 24px;
+  }
+  .about h3{
+    font-size: 20px;
+  }
+  .about a{
+    padding: 10px 15px;
+  }
+  .box-txt{
+    width:80%;
+    padding:20px;
+  }
+  .dir{
+    width:100%;
+    margin:30px 0;
+  }
+  .dir img{
+    width: 60%;
+    margin:0 20%;
+  }
+  .dir-txt{
+    width: 90%;
+    padding:20px 5% 0 5%;
+  }
+  .dir-txt p{
+    width:100%;
+  }
 }
 @media screen and (max-width: 480px){
   .offer-btn a{
@@ -301,6 +377,10 @@
   }
   .tab_item{
     font-size: 14px;
+  }
+  .about,.about-detail{
+    width: 90%;
+    padding:20px 5%;
   }
 }
 @media screen and (max-width: 375px){
