@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding:0;
-  font-family:'Hiragino Mincho Pro';
+  font-family:'Hiragino Mincho Pro','Hiragino Mincho ProN','ヒラギノ明朝 ProN','ヒラギノ明朝 Pro';
   font-weight: 100;
   line-break: strict;
 }
@@ -18,6 +18,7 @@ body{
   max-width:100%;
   width:100%;
   background-color: #fff;
+  font-family:'Hiragino Mincho Pro';
 }
 a{
   text-decoration: none;

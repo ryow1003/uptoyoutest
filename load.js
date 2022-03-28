@@ -1,5 +1,5 @@
 window.onload = function() {
   setTimeout(function() {
-    $('.load').fadeOut(3000);
-  }, 3000);
+    $('.load').fadeOut(300);
+  }, 300);
 }

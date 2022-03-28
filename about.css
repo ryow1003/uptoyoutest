@@ -1,0 +1,191 @@
+.about,.about-detail{
+  width:70%;
+  padding:50px 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(199, 199, 201);
+}
+.about h2{
+  font-size: 40px;
+}
+.about h1{
+  font-size: 120px;
+}
+.about p{
+  font-size: 32px;
+}
+.about h3{
+  margin-bottom: 50px;
+}
+.about a{
+  text-decoration: none;
+  padding:20px 30px;
+  background-color: rgb(119, 119, 121);
+  color: #fff;
+  transition: 1s;
+  width: fit-content;
+  margin:10px auto 0 auto;
+}
+.about a:hover{
+  background-color: #000;
+  color:#FFF;
+}
+.title-about{
+  display: flex;
+  overflow: hidden;
+  color: #000;
+  margin: 0 auto;
+}
+.title-about span {
+  display: block;
+  transform: translate(0, 105%);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.title-about.-visible span {
+  transform: translate(0, 0);
+}
+.title-about span:nth-child(2) {
+  transition-delay: 0.06s;
+}
+.title-about span:nth-child(3) {
+  transition-delay: 0.12s;
+}
+.title-about span:nth-child(4) {
+  transition-delay: 0.18s;
+}
+.title-about span:nth-child(5) {
+  transition-delay: 0.24s;
+}
+.title-about span:nth-child(6) {
+  transition-delay: 0.30s;
+}
+.title-about span:nth-child(7) {
+  transition-delay: 0.36s;
+}
+.title-about span:nth-child(8) {
+  transition-delay: 0.42s;
+}
+.title-about span:nth-child(9) {
+  transition-delay: 0.48s;
+}
+.title-about span:nth-child(10) {
+  transition-delay: 0.54s;
+}
+
+.about-content{
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #000;
+}
+.about-content .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -27px;
+  left: -3px;
+  padding: 5px 9px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 17px;
+  background: #000;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.box-title h2{
+  color:#fff;
+}
+.about-content{
+  background-color: #fff;
+}
+.about-content p {
+  color: #000;
+  margin: 0;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.about-aglo-title{
+  width:100%;
+  height:auto;
+  background: linear-gradient(90deg, rgba(66, 66, 66, 0.6), rgba(60, 60, 61, 0.9)) ,url(pic/about.JPG);
+  text-align: center;
+  padding:30px 0;
+}
+.about-aglo-title p{
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.about-aglo-title h1{
+  margin-top: 0px;
+  color: #fff;
+  font-size: 20px;
+}
+.box-text{
+  width: 60%;
+  margin:50px auto;
+  position: relative;
+  padding: 10px 20px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.box-text:before, .box-text:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.box-text:before {left: 10px;}
+.box-text:after {right: 10px;}
+.box-text p {
+  margin: 0;
+  padding: 0;
+}
+.box-text p{
+  letter-spacing: 1px;
+}
+.director{
+  width:100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+}
+.director h2{
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+.dir{
+  width:100%;
+  padding:0;
+  margin:0;
+  display: flex;
+}
+.dir img{
+  width:40%;
+}
+.dir-txt{
+  width:40%;
+  padding:200px 10% 0 10%;
+}
+.dir-txt h6{
+  font-size: 16px;
+}
+.dir-txt h1{
+  font-size: 40px;
+}
+.dir-txt h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.dir-txt p{
+  margin-top: 30px;
+  letter-spacing: 1px;
+}

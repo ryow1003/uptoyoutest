@@ -30,3 +30,7 @@ footer h2,footer h1,footer p{
   z-index: 3;
   font-family:'Hiragino Mincho Pro';
 }
+footer p a{
+  text-decoration: none;
+  color:#fff;
+}
